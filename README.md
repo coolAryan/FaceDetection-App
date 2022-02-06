@@ -1,16 +1,7 @@
 # faceapp
 
-A new Flutter project.
+This App detects the face of any person and also has the ability to store that face i.e we can add the face with a specific name and whenever the same face comes in future the app will display the name associated with that face.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The App uses Pre Trained ML Model Taken From MobileFaceNet_TF
+which is a Tensorflow implementation for MobileFaceNet.Furthermore This ML Model is Connected with the help of tflite plugin provided by flutter.
+App also uses Firebase ML Vision Plugin that allows us to detect Image.
